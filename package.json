@@ -1,0 +1,24 @@
+{
+    "name": "parsers",
+    "version": "1.0.0",
+    "description": "Various socket.io parsers",
+    "scripts": {
+        "start": "nodemon --es-module-specifier-resolution=node --watch ./src ./src/app.js"
+    },
+    "author": "Damien Arrachequesne",
+    "license": "MIT",
+    "type": "module",
+    "dependencies": {
+        "axios": "^1.4.0",
+        "cheerio": "^1.0.0-rc.12",
+        "component-emitter": "^1.2.1",
+        "express": "^4.15.2",
+        "nodemon": "^2.0.4",
+        "schemapack": "^1.4.2",
+        "socket.io": "^4.0.0",
+        "socket.io-client": "^4.0.0",
+        "socket.io-json-parser": "^3.0.0",
+        "socket.io-msgpack-parser": "^3.0.1",
+        "webpack": "^2.4.1"
+    }
+}
